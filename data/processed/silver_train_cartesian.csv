@@ -1,0 +1,1471 @@
+candidate_id,job_id,expected_label,rationale
+C001,J001,weak,Python skills relevant to ML Engineer but lacks ML production experience
+C001,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C001,J003,no_fit,Different professional domain from HR Recruiter requirements
+C001,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C001,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C001,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C001,J007,medium,Meets most Senior Data Engineer requirements with some domain/skill gaps
+C001,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C001,J009,no_fit,Different professional domain from ML Researcher requirements
+C001,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C001,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C001,J012,no_fit,Different professional domain from People Ops Manager requirements
+C001,J013,medium,Meets most Data Scientist requirements with some domain/skill gaps
+C001,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C001,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C001,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C001,J017,medium,Meets most Junior Data Engineer requirements with some domain/skill gaps
+C001,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C001,J019,no_fit,Different professional domain from Recruiter requirements
+C001,J020,medium,Meets most Senior Analytics Engineer requirements with some domain/skill gaps
+C001,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C002,J001,no_fit,Different professional domain from ML Engineer requirements
+C002,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C002,J003,strong,Strong match with 4 core skills directly relevant to HR Recruiter
+C002,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C002,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C002,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C002,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C002,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C002,J009,no_fit,Different professional domain from ML Researcher requirements
+C002,J010,no_fit,Different professional domain from Backend Engineer requirements
+C002,J011,weak,Analytics experience could support HRIS Analyst but lacks HR domain knowledge
+C002,J012,no_fit,Different professional domain from People Ops Manager requirements
+C002,J013,no_fit,Different professional domain from Data Scientist requirements
+C002,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C002,J015,medium,Meets most Talent Acquisition Lead requirements with some domain/skill gaps
+C002,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C002,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C002,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C002,J019,strong,Strong match with 4 core skills directly relevant to Recruiter
+C002,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C002,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C003,J001,no_fit,Different professional domain from ML Engineer requirements
+C003,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C003,J003,no_fit,Different professional domain from HR Recruiter requirements
+C003,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C003,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C003,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C003,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C003,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C003,J009,no_fit,Different professional domain from ML Researcher requirements
+C003,J010,no_fit,Different professional domain from Backend Engineer requirements
+C003,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C003,J012,no_fit,Different professional domain from People Ops Manager requirements
+C003,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C003,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C003,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C003,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C003,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C003,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C003,J019,no_fit,Different professional domain from Recruiter requirements
+C003,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C003,J021,weak,Some People Analytics Lead skills present but significant gaps in domain/tools
+C004,J001,strong,Strong match with 5 core skills directly relevant to ML Engineer
+C004,J002,no_fit,Different professional domain from Data Analyst requirements
+C004,J003,no_fit,Different professional domain from HR Recruiter requirements
+C004,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C004,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C004,J006,strong,Strong match with 5 core skills directly relevant to Senior ML Engineer
+C004,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C004,J008,no_fit,Different professional domain from BI Developer requirements
+C004,J009,medium,Meets most ML Researcher requirements with some domain/skill gaps
+C004,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C004,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C004,J012,no_fit,Different professional domain from People Ops Manager requirements
+C004,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C004,J014,weak,Some DevOps Engineer skills present but significant gaps in domain/tools
+C004,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C004,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C004,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C004,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C004,J019,no_fit,Different professional domain from Recruiter requirements
+C004,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C004,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C005,J001,weak,Python skills relevant to ML Engineer but lacks ML production experience
+C005,J002,no_fit,Different professional domain from Data Analyst requirements
+C005,J003,no_fit,Different professional domain from HR Recruiter requirements
+C005,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C005,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C005,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C005,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C005,J008,no_fit,Different professional domain from BI Developer requirements
+C005,J009,weak,Python skills relevant to ML Researcher but lacks ML production experience
+C005,J010,no_fit,Different professional domain from Backend Engineer requirements
+C005,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C005,J012,no_fit,Different professional domain from People Ops Manager requirements
+C005,J013,no_fit,Different professional domain from Data Scientist requirements
+C005,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C005,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C005,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C005,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C005,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C005,J019,no_fit,Different professional domain from Recruiter requirements
+C005,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C005,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C006,J001,no_fit,Different professional domain from ML Engineer requirements
+C006,J002,no_fit,Different professional domain from Data Analyst requirements
+C006,J003,medium,Meets most HR Recruiter requirements with some domain/skill gaps
+C006,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C006,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C006,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C006,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C006,J008,no_fit,Different professional domain from BI Developer requirements
+C006,J009,no_fit,Different professional domain from ML Researcher requirements
+C006,J010,no_fit,Different professional domain from Backend Engineer requirements
+C006,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C006,J012,no_fit,Different professional domain from People Ops Manager requirements
+C006,J013,no_fit,Different professional domain from Data Scientist requirements
+C006,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C006,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C006,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C006,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C006,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C006,J019,medium,Meets most Recruiter requirements with some domain/skill gaps
+C006,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C006,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C007,J001,strong,Strong match with 4 core skills directly relevant to ML Engineer
+C007,J002,no_fit,Different professional domain from Data Analyst requirements
+C007,J003,no_fit,Different professional domain from HR Recruiter requirements
+C007,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C007,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C007,J006,medium,Has core Senior ML Engineer skills but may lack seniority/leadership experience
+C007,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C007,J008,no_fit,Different professional domain from BI Developer requirements
+C007,J009,strong,Strong match with 5 core skills directly relevant to ML Researcher
+C007,J010,no_fit,Different professional domain from Backend Engineer requirements
+C007,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C007,J012,no_fit,Different professional domain from People Ops Manager requirements
+C007,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C007,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C007,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C007,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C007,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C007,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C007,J019,no_fit,Different professional domain from Recruiter requirements
+C007,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C007,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C008,J001,no_fit,Different professional domain from ML Engineer requirements
+C008,J002,strong,Strong match with 5 core skills directly relevant to Data Analyst
+C008,J003,no_fit,Different professional domain from HR Recruiter requirements
+C008,J004,strong,Strong match with 4 core skills directly relevant to People Analytics Analyst
+C008,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C008,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C008,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C008,J008,strong,Strong match with 3 core skills directly relevant to BI Developer
+C008,J009,no_fit,Different professional domain from ML Researcher requirements
+C008,J010,no_fit,Different professional domain from Backend Engineer requirements
+C008,J011,weak,Analytics experience could support HRIS Analyst but lacks HR domain knowledge
+C008,J012,no_fit,Different professional domain from People Ops Manager requirements
+C008,J013,no_fit,Different professional domain from Data Scientist requirements
+C008,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C008,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C008,J016,medium,Meets most Product Analytics Manager requirements with some domain/skill gaps
+C008,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C008,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C008,J019,no_fit,Different professional domain from Recruiter requirements
+C008,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C008,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C009,J001,medium,Meets most ML Engineer requirements with some domain/skill gaps
+C009,J002,no_fit,Different professional domain from Data Analyst requirements
+C009,J003,no_fit,Different professional domain from HR Recruiter requirements
+C009,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C009,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C009,J006,weak,Python skills relevant to Senior ML Engineer but lacks ML production experience
+C009,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C009,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C009,J009,weak,Python skills relevant to ML Researcher but lacks ML production experience
+C009,J010,no_fit,Different professional domain from Backend Engineer requirements
+C009,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C009,J012,no_fit,Different professional domain from People Ops Manager requirements
+C009,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C009,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C009,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C009,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C009,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C009,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C009,J019,no_fit,Different professional domain from Recruiter requirements
+C009,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C009,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C010,J001,no_fit,Different professional domain from ML Engineer requirements
+C010,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C010,J003,weak,Analytics experience could support HR Recruiter but lacks HR domain knowledge
+C010,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C010,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C010,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C010,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C010,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C010,J009,no_fit,Different professional domain from ML Researcher requirements
+C010,J010,no_fit,Different professional domain from Backend Engineer requirements
+C010,J011,weak,Analytics experience could support HRIS Analyst but lacks HR domain knowledge
+C010,J012,no_fit,Different professional domain from People Ops Manager requirements
+C010,J013,medium,Meets most Data Scientist requirements with some domain/skill gaps
+C010,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C010,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C010,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C010,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C010,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C010,J019,weak,Analytics experience could support Recruiter but lacks HR domain knowledge
+C010,J020,medium,Has core Senior Analytics Engineer skills but may lack seniority/leadership experience
+C010,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C011,J001,no_fit,Different professional domain from ML Engineer requirements
+C011,J002,no_fit,Different professional domain from Data Analyst requirements
+C011,J003,no_fit,Different professional domain from HR Recruiter requirements
+C011,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C011,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C011,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C011,J007,strong,Strong match with 5 core skills directly relevant to Senior Data Engineer
+C011,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C011,J009,no_fit,Different professional domain from ML Researcher requirements
+C011,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C011,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C011,J012,no_fit,Different professional domain from People Ops Manager requirements
+C011,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C011,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C011,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C011,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C011,J017,medium,Meets most Junior Data Engineer requirements with some domain/skill gaps
+C011,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C011,J019,no_fit,Different professional domain from Recruiter requirements
+C011,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C011,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C012,J001,no_fit,Different professional domain from ML Engineer requirements
+C012,J002,no_fit,Different professional domain from Data Analyst requirements
+C012,J003,strong,Strong match with 3 core skills directly relevant to HR Recruiter
+C012,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C012,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C012,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C012,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C012,J008,no_fit,Different professional domain from BI Developer requirements
+C012,J009,no_fit,Different professional domain from ML Researcher requirements
+C012,J010,no_fit,Different professional domain from Backend Engineer requirements
+C012,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C012,J012,no_fit,Different professional domain from People Ops Manager requirements
+C012,J013,no_fit,Different professional domain from Data Scientist requirements
+C012,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C012,J015,medium,Meets most Talent Acquisition Lead requirements with some domain/skill gaps
+C012,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C012,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C012,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C012,J019,strong,Strong match with 3 core skills directly relevant to Recruiter
+C012,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C012,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C013,J001,weak,Python skills relevant to ML Engineer but lacks ML production experience
+C013,J002,no_fit,Different professional domain from Data Analyst requirements
+C013,J003,no_fit,Different professional domain from HR Recruiter requirements
+C013,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C013,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C013,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C013,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C013,J008,no_fit,Different professional domain from BI Developer requirements
+C013,J009,no_fit,Different professional domain from ML Researcher requirements
+C013,J010,no_fit,Different professional domain from Backend Engineer requirements
+C013,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C013,J012,no_fit,Different professional domain from People Ops Manager requirements
+C013,J013,no_fit,Different professional domain from Data Scientist requirements
+C013,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C013,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C013,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C013,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C013,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C013,J019,no_fit,Different professional domain from Recruiter requirements
+C013,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C013,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C014,J001,no_fit,Different professional domain from ML Engineer requirements
+C014,J002,strong,Strong match with 4 core skills directly relevant to Data Analyst
+C014,J003,weak,Analytics experience could support HR Recruiter but lacks HR domain knowledge
+C014,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C014,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C014,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C014,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C014,J008,strong,Strong match with 3 core skills directly relevant to BI Developer
+C014,J009,no_fit,Different professional domain from ML Researcher requirements
+C014,J010,no_fit,Different professional domain from Backend Engineer requirements
+C014,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C014,J012,no_fit,Different professional domain from People Ops Manager requirements
+C014,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C014,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C014,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C014,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C014,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C014,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C014,J019,weak,Analytics experience could support Recruiter but lacks HR domain knowledge
+C014,J020,medium,Has core Senior Analytics Engineer skills but may lack seniority/leadership experience
+C014,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C015,J001,no_fit,Different professional domain from ML Engineer requirements
+C015,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C015,J003,weak,Some HR Recruiter skills present but significant gaps in domain/tools
+C015,J004,strong,Strong match with 4 core skills directly relevant to People Analytics Analyst
+C015,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C015,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C015,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C015,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C015,J009,no_fit,Different professional domain from ML Researcher requirements
+C015,J010,no_fit,Different professional domain from Backend Engineer requirements
+C015,J011,medium,Meets most HRIS Analyst requirements with some domain/skill gaps
+C015,J012,no_fit,Different professional domain from People Ops Manager requirements
+C015,J013,no_fit,Different professional domain from Data Scientist requirements
+C015,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C015,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C015,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C015,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C015,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C015,J019,weak,Some Recruiter skills present but significant gaps in domain/tools
+C015,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C015,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C016,J001,strong,Strong match with 4 core skills directly relevant to ML Engineer
+C016,J002,no_fit,Different professional domain from Data Analyst requirements
+C016,J003,no_fit,Different professional domain from HR Recruiter requirements
+C016,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C016,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C016,J006,medium,Has core Senior ML Engineer skills but may lack seniority/leadership experience
+C016,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C016,J008,no_fit,Different professional domain from BI Developer requirements
+C016,J009,weak,Python skills relevant to ML Researcher but lacks ML production experience
+C016,J010,no_fit,Different professional domain from Backend Engineer requirements
+C016,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C016,J012,no_fit,Different professional domain from People Ops Manager requirements
+C016,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C016,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C016,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C016,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C016,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C016,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C016,J019,no_fit,Different professional domain from Recruiter requirements
+C016,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C016,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C017,J001,no_fit,Different professional domain from ML Engineer requirements
+C017,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C017,J003,no_fit,Different professional domain from HR Recruiter requirements
+C017,J004,weak,Some People Analytics Analyst skills present but significant gaps in domain/tools
+C017,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C017,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C017,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C017,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C017,J009,no_fit,Different professional domain from ML Researcher requirements
+C017,J010,no_fit,Different professional domain from Backend Engineer requirements
+C017,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C017,J012,no_fit,Different professional domain from People Ops Manager requirements
+C017,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C017,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C017,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C017,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C017,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C017,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C017,J019,no_fit,Different professional domain from Recruiter requirements
+C017,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C017,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C018,J001,no_fit,Different professional domain from ML Engineer requirements
+C018,J002,no_fit,Different professional domain from Data Analyst requirements
+C018,J003,no_fit,Different professional domain from HR Recruiter requirements
+C018,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C018,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C018,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C018,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C018,J008,no_fit,Different professional domain from BI Developer requirements
+C018,J009,no_fit,Different professional domain from ML Researcher requirements
+C018,J010,no_fit,Different professional domain from Backend Engineer requirements
+C018,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C018,J012,no_fit,Different professional domain from People Ops Manager requirements
+C018,J013,no_fit,Different professional domain from Data Scientist requirements
+C018,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C018,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C018,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C018,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C018,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C018,J019,no_fit,Different professional domain from Recruiter requirements
+C018,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C018,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C019,J001,strong,Strong match with 4 core skills directly relevant to ML Engineer
+C019,J002,no_fit,Different professional domain from Data Analyst requirements
+C019,J003,no_fit,Different professional domain from HR Recruiter requirements
+C019,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C019,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C019,J006,medium,Meets most Senior ML Engineer requirements with some domain/skill gaps
+C019,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C019,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C019,J009,medium,Meets most ML Researcher requirements with some domain/skill gaps
+C019,J010,no_fit,Different professional domain from Backend Engineer requirements
+C019,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C019,J012,no_fit,Different professional domain from People Ops Manager requirements
+C019,J013,medium,Meets most Data Scientist requirements with some domain/skill gaps
+C019,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C019,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C019,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C019,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C019,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C019,J019,no_fit,Different professional domain from Recruiter requirements
+C019,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C019,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C020,J001,weak,Python skills relevant to ML Engineer but lacks ML production experience
+C020,J002,strong,Strong match with 4 core skills directly relevant to Data Analyst
+C020,J003,weak,Analytics experience could support HR Recruiter but lacks HR domain knowledge
+C020,J004,strong,Strong match with 4 core skills directly relevant to People Analytics Analyst
+C020,J005,strong,Strong match with 4 core skills directly relevant to Data Analyst – Growth/Ops
+C020,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C020,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C020,J008,strong,Strong match with 3 core skills directly relevant to BI Developer
+C020,J009,no_fit,Different professional domain from ML Researcher requirements
+C020,J010,no_fit,Different professional domain from Backend Engineer requirements
+C020,J011,weak,Analytics experience could support HRIS Analyst but lacks HR domain knowledge
+C020,J012,no_fit,Different professional domain from People Ops Manager requirements
+C020,J013,medium,Meets most Data Scientist requirements with some domain/skill gaps
+C020,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C020,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C020,J016,medium,Meets most Product Analytics Manager requirements with some domain/skill gaps
+C020,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C020,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C020,J019,weak,Analytics experience could support Recruiter but lacks HR domain knowledge
+C020,J020,medium,Has core Senior Analytics Engineer skills but may lack seniority/leadership experience
+C020,J021,strong,Strong match with 4 core skills directly relevant to People Analytics Lead
+C021,J001,no_fit,Different professional domain from ML Engineer requirements
+C021,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C021,J003,no_fit,Different professional domain from HR Recruiter requirements
+C021,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C021,J005,strong,Strong match with 4 core skills directly relevant to Data Analyst – Growth/Ops
+C021,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C021,J007,medium,Meets most Senior Data Engineer requirements with some domain/skill gaps
+C021,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C021,J009,no_fit,Different professional domain from ML Researcher requirements
+C021,J010,no_fit,Different professional domain from Backend Engineer requirements
+C021,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C021,J012,no_fit,Different professional domain from People Ops Manager requirements
+C021,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C021,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C021,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C021,J016,medium,Meets most Product Analytics Manager requirements with some domain/skill gaps
+C021,J017,medium,Meets most Junior Data Engineer requirements with some domain/skill gaps
+C021,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C021,J019,no_fit,Different professional domain from Recruiter requirements
+C021,J020,medium,Meets most Senior Analytics Engineer requirements with some domain/skill gaps
+C021,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C022,J001,no_fit,Different professional domain from ML Engineer requirements
+C022,J002,no_fit,Different professional domain from Data Analyst requirements
+C022,J003,no_fit,Different professional domain from HR Recruiter requirements
+C022,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C022,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C022,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C022,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C022,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C022,J009,no_fit,Different professional domain from ML Researcher requirements
+C022,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C022,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C022,J012,no_fit,Different professional domain from People Ops Manager requirements
+C022,J013,no_fit,Different professional domain from Data Scientist requirements
+C022,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C022,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C022,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C022,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C022,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C022,J019,no_fit,Different professional domain from Recruiter requirements
+C022,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C022,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C023,J001,medium,Meets most ML Engineer requirements with some domain/skill gaps
+C023,J002,no_fit,Different professional domain from Data Analyst requirements
+C023,J003,no_fit,Different professional domain from HR Recruiter requirements
+C023,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C023,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C023,J006,medium,Has core Senior ML Engineer skills but may lack seniority/leadership experience
+C023,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C023,J008,no_fit,Different professional domain from BI Developer requirements
+C023,J009,weak,Some ML Researcher skills present but significant gaps in domain/tools
+C023,J010,no_fit,Different professional domain from Backend Engineer requirements
+C023,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C023,J012,no_fit,Different professional domain from People Ops Manager requirements
+C023,J013,no_fit,Different professional domain from Data Scientist requirements
+C023,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C023,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C023,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C023,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C023,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C023,J019,no_fit,Different professional domain from Recruiter requirements
+C023,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C023,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C024,J001,no_fit,Different professional domain from ML Engineer requirements
+C024,J002,no_fit,Different professional domain from Data Analyst requirements
+C024,J003,no_fit,Different professional domain from HR Recruiter requirements
+C024,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C024,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C024,J006,weak,Some Senior ML Engineer skills present but significant gaps in domain/tools
+C024,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C024,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C024,J009,no_fit,Different professional domain from ML Researcher requirements
+C024,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C024,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C024,J012,no_fit,Different professional domain from People Ops Manager requirements
+C024,J013,no_fit,Different professional domain from Data Scientist requirements
+C024,J014,weak,Some DevOps Engineer skills present but significant gaps in domain/tools
+C024,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C024,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C024,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C024,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C024,J019,no_fit,Different professional domain from Recruiter requirements
+C024,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C024,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C025,J001,no_fit,Different professional domain from ML Engineer requirements
+C025,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C025,J003,weak,Analytics experience could support HR Recruiter but lacks HR domain knowledge
+C025,J004,strong,Strong match with 4 core skills directly relevant to People Analytics Analyst
+C025,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C025,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C025,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C025,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C025,J009,no_fit,Different professional domain from ML Researcher requirements
+C025,J010,no_fit,Different professional domain from Backend Engineer requirements
+C025,J011,medium,Meets most HRIS Analyst requirements with some domain/skill gaps
+C025,J012,no_fit,Different professional domain from People Ops Manager requirements
+C025,J013,no_fit,Different professional domain from Data Scientist requirements
+C025,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C025,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C025,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C025,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C025,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C025,J019,weak,Analytics experience could support Recruiter but lacks HR domain knowledge
+C025,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C025,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C026,J001,no_fit,Different professional domain from ML Engineer requirements
+C026,J002,no_fit,Different professional domain from Data Analyst requirements
+C026,J003,no_fit,Different professional domain from HR Recruiter requirements
+C026,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C026,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C026,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C026,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C026,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C026,J009,no_fit,Different professional domain from ML Researcher requirements
+C026,J010,no_fit,Different professional domain from Backend Engineer requirements
+C026,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C026,J012,no_fit,Different professional domain from People Ops Manager requirements
+C026,J013,no_fit,Different professional domain from Data Scientist requirements
+C026,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C026,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C026,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C026,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C026,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C026,J019,no_fit,Different professional domain from Recruiter requirements
+C026,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C026,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C027,J001,no_fit,Different professional domain from ML Engineer requirements
+C027,J002,strong,Strong match with 5 core skills directly relevant to Data Analyst
+C027,J003,no_fit,Different professional domain from HR Recruiter requirements
+C027,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C027,J005,strong,Strong match with 4 core skills directly relevant to Data Analyst – Growth/Ops
+C027,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C027,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C027,J008,strong,Strong match with 4 core skills directly relevant to BI Developer
+C027,J009,no_fit,Different professional domain from ML Researcher requirements
+C027,J010,no_fit,Different professional domain from Backend Engineer requirements
+C027,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C027,J012,no_fit,Different professional domain from People Ops Manager requirements
+C027,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C027,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C027,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C027,J016,medium,Meets most Product Analytics Manager requirements with some domain/skill gaps
+C027,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C027,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C027,J019,no_fit,Different professional domain from Recruiter requirements
+C027,J020,medium,Meets most Senior Analytics Engineer requirements with some domain/skill gaps
+C027,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C028,J001,weak,Some ML Engineer skills present but significant gaps in domain/tools
+C028,J002,no_fit,Different professional domain from Data Analyst requirements
+C028,J003,no_fit,Different professional domain from HR Recruiter requirements
+C028,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C028,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C028,J006,weak,Some Senior ML Engineer skills present but significant gaps in domain/tools
+C028,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C028,J008,no_fit,Different professional domain from BI Developer requirements
+C028,J009,no_fit,Different professional domain from ML Researcher requirements
+C028,J010,no_fit,Different professional domain from Backend Engineer requirements
+C028,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C028,J012,no_fit,Different professional domain from People Ops Manager requirements
+C028,J013,no_fit,Different professional domain from Data Scientist requirements
+C028,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C028,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C028,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C028,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C028,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C028,J019,no_fit,Different professional domain from Recruiter requirements
+C028,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C028,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C029,J001,no_fit,Different professional domain from ML Engineer requirements
+C029,J002,no_fit,Different professional domain from Data Analyst requirements
+C029,J003,medium,Meets most HR Recruiter requirements with some domain/skill gaps
+C029,J004,weak,Some People Analytics Analyst skills present but significant gaps in domain/tools
+C029,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C029,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C029,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C029,J008,no_fit,Different professional domain from BI Developer requirements
+C029,J009,no_fit,Different professional domain from ML Researcher requirements
+C029,J010,no_fit,Different professional domain from Backend Engineer requirements
+C029,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C029,J012,no_fit,Different professional domain from People Ops Manager requirements
+C029,J013,no_fit,Different professional domain from Data Scientist requirements
+C029,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C029,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C029,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C029,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C029,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C029,J019,medium,Meets most Recruiter requirements with some domain/skill gaps
+C029,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C029,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C030,J001,no_fit,Different professional domain from ML Engineer requirements
+C030,J002,no_fit,Different professional domain from Data Analyst requirements
+C030,J003,no_fit,Different professional domain from HR Recruiter requirements
+C030,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C030,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C030,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C030,J007,strong,Strong match with 5 core skills directly relevant to Senior Data Engineer
+C030,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C030,J009,no_fit,Different professional domain from ML Researcher requirements
+C030,J010,no_fit,Different professional domain from Backend Engineer requirements
+C030,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C030,J012,no_fit,Different professional domain from People Ops Manager requirements
+C030,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C030,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C030,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C030,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C030,J017,medium,Meets most Junior Data Engineer requirements with some domain/skill gaps
+C030,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C030,J019,no_fit,Different professional domain from Recruiter requirements
+C030,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C030,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C031,J001,no_fit,Different professional domain from ML Engineer requirements
+C031,J002,no_fit,Different professional domain from Data Analyst requirements
+C031,J003,no_fit,Different professional domain from HR Recruiter requirements
+C031,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C031,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C031,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C031,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C031,J008,no_fit,Different professional domain from BI Developer requirements
+C031,J009,no_fit,Different professional domain from ML Researcher requirements
+C031,J010,no_fit,Different professional domain from Backend Engineer requirements
+C031,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C031,J012,no_fit,Different professional domain from People Ops Manager requirements
+C031,J013,no_fit,Different professional domain from Data Scientist requirements
+C031,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C031,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C031,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C031,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C031,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C031,J019,no_fit,Different professional domain from Recruiter requirements
+C031,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C031,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C032,J001,no_fit,Different professional domain from ML Engineer requirements
+C032,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C032,J003,no_fit,Different professional domain from HR Recruiter requirements
+C032,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C032,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C032,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C032,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C032,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C032,J009,no_fit,Different professional domain from ML Researcher requirements
+C032,J010,no_fit,Different professional domain from Backend Engineer requirements
+C032,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C032,J012,no_fit,Different professional domain from People Ops Manager requirements
+C032,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C032,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C032,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C032,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C032,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C032,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C032,J019,no_fit,Different professional domain from Recruiter requirements
+C032,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C032,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C033,J001,no_fit,Different professional domain from ML Engineer requirements
+C033,J002,no_fit,Different professional domain from Data Analyst requirements
+C033,J003,weak,Some HR Recruiter skills present but significant gaps in domain/tools
+C033,J004,weak,Some People Analytics Analyst skills present but significant gaps in domain/tools
+C033,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C033,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C033,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C033,J008,no_fit,Different professional domain from BI Developer requirements
+C033,J009,no_fit,Different professional domain from ML Researcher requirements
+C033,J010,no_fit,Different professional domain from Backend Engineer requirements
+C033,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C033,J012,no_fit,Different professional domain from People Ops Manager requirements
+C033,J013,no_fit,Different professional domain from Data Scientist requirements
+C033,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C033,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C033,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C033,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C033,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C033,J019,weak,Some Recruiter skills present but significant gaps in domain/tools
+C033,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C033,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C034,J001,weak,Some ML Engineer skills present but significant gaps in domain/tools
+C034,J002,no_fit,Different professional domain from Data Analyst requirements
+C034,J003,no_fit,Different professional domain from HR Recruiter requirements
+C034,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C034,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C034,J006,medium,Has core Senior ML Engineer skills but may lack seniority/leadership experience
+C034,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C034,J008,no_fit,Different professional domain from BI Developer requirements
+C034,J009,no_fit,Different professional domain from ML Researcher requirements
+C034,J010,no_fit,Different professional domain from Backend Engineer requirements
+C034,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C034,J012,no_fit,Different professional domain from People Ops Manager requirements
+C034,J013,no_fit,Different professional domain from Data Scientist requirements
+C034,J014,medium,Meets most DevOps Engineer requirements with some domain/skill gaps
+C034,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C034,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C034,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C034,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C034,J019,no_fit,Different professional domain from Recruiter requirements
+C034,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C034,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C035,J001,weak,Python skills relevant to ML Engineer but lacks ML production experience
+C035,J002,no_fit,Different professional domain from Data Analyst requirements
+C035,J003,weak,Some HR Recruiter skills present but significant gaps in domain/tools
+C035,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C035,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C035,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C035,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C035,J008,no_fit,Different professional domain from BI Developer requirements
+C035,J009,no_fit,Different professional domain from ML Researcher requirements
+C035,J010,no_fit,Different professional domain from Backend Engineer requirements
+C035,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C035,J012,no_fit,Different professional domain from People Ops Manager requirements
+C035,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C035,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C035,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C035,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C035,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C035,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C035,J019,weak,Some Recruiter skills present but significant gaps in domain/tools
+C035,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C035,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C036,J001,no_fit,Different professional domain from ML Engineer requirements
+C036,J002,strong,Strong match with 4 core skills directly relevant to Data Analyst
+C036,J003,no_fit,Different professional domain from HR Recruiter requirements
+C036,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C036,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C036,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C036,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C036,J008,strong,Strong match with 3 core skills directly relevant to BI Developer
+C036,J009,no_fit,Different professional domain from ML Researcher requirements
+C036,J010,no_fit,Different professional domain from Backend Engineer requirements
+C036,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C036,J012,no_fit,Different professional domain from People Ops Manager requirements
+C036,J013,no_fit,Different professional domain from Data Scientist requirements
+C036,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C036,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C036,J016,medium,Meets most Product Analytics Manager requirements with some domain/skill gaps
+C036,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C036,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C036,J019,no_fit,Different professional domain from Recruiter requirements
+C036,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C036,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C037,J001,no_fit,Different professional domain from ML Engineer requirements
+C037,J002,no_fit,Different professional domain from Data Analyst requirements
+C037,J003,no_fit,Different professional domain from HR Recruiter requirements
+C037,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C037,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C037,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C037,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C037,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C037,J009,no_fit,Different professional domain from ML Researcher requirements
+C037,J010,no_fit,Different professional domain from Backend Engineer requirements
+C037,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C037,J012,no_fit,Different professional domain from People Ops Manager requirements
+C037,J013,no_fit,Different professional domain from Data Scientist requirements
+C037,J014,weak,Some DevOps Engineer skills present but significant gaps in domain/tools
+C037,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C037,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C037,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C037,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C037,J019,no_fit,Different professional domain from Recruiter requirements
+C037,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C037,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C038,J001,no_fit,Different professional domain from ML Engineer requirements
+C038,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C038,J003,no_fit,Different professional domain from HR Recruiter requirements
+C038,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C038,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C038,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C038,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C038,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C038,J009,no_fit,Different professional domain from ML Researcher requirements
+C038,J010,no_fit,Different professional domain from Backend Engineer requirements
+C038,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C038,J012,no_fit,Different professional domain from People Ops Manager requirements
+C038,J013,no_fit,Different professional domain from Data Scientist requirements
+C038,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C038,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C038,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C038,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C038,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C038,J019,no_fit,Different professional domain from Recruiter requirements
+C038,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C038,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C039,J001,strong,Strong match with 4 core skills directly relevant to ML Engineer
+C039,J002,no_fit,Different professional domain from Data Analyst requirements
+C039,J003,no_fit,Different professional domain from HR Recruiter requirements
+C039,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C039,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C039,J006,medium,Has core Senior ML Engineer skills but may lack seniority/leadership experience
+C039,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C039,J008,no_fit,Different professional domain from BI Developer requirements
+C039,J009,medium,Meets most ML Researcher requirements with some domain/skill gaps
+C039,J010,no_fit,Different professional domain from Backend Engineer requirements
+C039,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C039,J012,no_fit,Different professional domain from People Ops Manager requirements
+C039,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C039,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C039,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C039,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C039,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C039,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C039,J019,no_fit,Different professional domain from Recruiter requirements
+C039,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C039,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C040,J001,no_fit,Different professional domain from ML Engineer requirements
+C040,J002,no_fit,Different professional domain from Data Analyst requirements
+C040,J003,medium,Meets most HR Recruiter requirements with some domain/skill gaps
+C040,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C040,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C040,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C040,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C040,J008,no_fit,Different professional domain from BI Developer requirements
+C040,J009,no_fit,Different professional domain from ML Researcher requirements
+C040,J010,no_fit,Different professional domain from Backend Engineer requirements
+C040,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C040,J012,no_fit,Different professional domain from People Ops Manager requirements
+C040,J013,no_fit,Different professional domain from Data Scientist requirements
+C040,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C040,J015,weak,Some Talent Acquisition Lead skills present but significant gaps in domain/tools
+C040,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C040,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C040,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C040,J019,medium,Meets most Recruiter requirements with some domain/skill gaps
+C040,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C040,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C041,J001,no_fit,Different professional domain from ML Engineer requirements
+C041,J002,no_fit,Different professional domain from Data Analyst requirements
+C041,J003,no_fit,Different professional domain from HR Recruiter requirements
+C041,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C041,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C041,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C041,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C041,J008,no_fit,Different professional domain from BI Developer requirements
+C041,J009,no_fit,Different professional domain from ML Researcher requirements
+C041,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C041,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C041,J012,no_fit,Different professional domain from People Ops Manager requirements
+C041,J013,no_fit,Different professional domain from Data Scientist requirements
+C041,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C041,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C041,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C041,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C041,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C041,J019,no_fit,Different professional domain from Recruiter requirements
+C041,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C041,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C042,J001,no_fit,Different professional domain from ML Engineer requirements
+C042,J002,no_fit,Different professional domain from Data Analyst requirements
+C042,J003,no_fit,Different professional domain from HR Recruiter requirements
+C042,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C042,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C042,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C042,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C042,J008,no_fit,Different professional domain from BI Developer requirements
+C042,J009,no_fit,Different professional domain from ML Researcher requirements
+C042,J010,no_fit,Different professional domain from Backend Engineer requirements
+C042,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C042,J012,no_fit,Different professional domain from People Ops Manager requirements
+C042,J013,no_fit,Different professional domain from Data Scientist requirements
+C042,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C042,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C042,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C042,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C042,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C042,J019,no_fit,Different professional domain from Recruiter requirements
+C042,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C042,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C043,J001,no_fit,Different professional domain from ML Engineer requirements
+C043,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C043,J003,weak,Analytics experience could support HR Recruiter but lacks HR domain knowledge
+C043,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C043,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C043,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C043,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C043,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C043,J009,no_fit,Different professional domain from ML Researcher requirements
+C043,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C043,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C043,J012,no_fit,Different professional domain from People Ops Manager requirements
+C043,J013,no_fit,Different professional domain from Data Scientist requirements
+C043,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C043,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C043,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C043,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C043,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C043,J019,weak,Analytics experience could support Recruiter but lacks HR domain knowledge
+C043,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C043,J021,medium,Meets most People Analytics Lead requirements with some domain/skill gaps
+C044,J001,strong,Strong match with 4 core skills directly relevant to ML Engineer
+C044,J002,no_fit,Different professional domain from Data Analyst requirements
+C044,J003,no_fit,Different professional domain from HR Recruiter requirements
+C044,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C044,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C044,J006,medium,Has core Senior ML Engineer skills but may lack seniority/leadership experience
+C044,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C044,J008,no_fit,Different professional domain from BI Developer requirements
+C044,J009,weak,Python skills relevant to ML Researcher but lacks ML production experience
+C044,J010,weak,Some Backend Engineer skills present but significant gaps in domain/tools
+C044,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C044,J012,no_fit,Different professional domain from People Ops Manager requirements
+C044,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C044,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C044,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C044,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C044,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C044,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C044,J019,no_fit,Different professional domain from Recruiter requirements
+C044,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C044,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C045,J001,no_fit,Different professional domain from ML Engineer requirements
+C045,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C045,J003,no_fit,Different professional domain from HR Recruiter requirements
+C045,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C045,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C045,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C045,J007,medium,Has core Senior Data Engineer skills but may lack seniority/leadership experience
+C045,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C045,J009,no_fit,Different professional domain from ML Researcher requirements
+C045,J010,no_fit,Different professional domain from Backend Engineer requirements
+C045,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C045,J012,no_fit,Different professional domain from People Ops Manager requirements
+C045,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C045,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C045,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C045,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C045,J017,medium,Meets most Junior Data Engineer requirements with some domain/skill gaps
+C045,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C045,J019,no_fit,Different professional domain from Recruiter requirements
+C045,J020,medium,Has core Senior Analytics Engineer skills but may lack seniority/leadership experience
+C045,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C046,J001,no_fit,Different professional domain from ML Engineer requirements
+C046,J002,no_fit,Different professional domain from Data Analyst requirements
+C046,J003,no_fit,Different professional domain from HR Recruiter requirements
+C046,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C046,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C046,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C046,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C046,J008,no_fit,Different professional domain from BI Developer requirements
+C046,J009,no_fit,Different professional domain from ML Researcher requirements
+C046,J010,no_fit,Different professional domain from Backend Engineer requirements
+C046,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C046,J012,no_fit,Different professional domain from People Ops Manager requirements
+C046,J013,no_fit,Different professional domain from Data Scientist requirements
+C046,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C046,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C046,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C046,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C046,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C046,J019,no_fit,Different professional domain from Recruiter requirements
+C046,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C046,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C047,J001,strong,Strong match with 4 core skills directly relevant to ML Engineer
+C047,J002,no_fit,Different professional domain from Data Analyst requirements
+C047,J003,no_fit,Different professional domain from HR Recruiter requirements
+C047,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C047,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C047,J006,medium,Meets most Senior ML Engineer requirements with some domain/skill gaps
+C047,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C047,J008,no_fit,Different professional domain from BI Developer requirements
+C047,J009,medium,Meets most ML Researcher requirements with some domain/skill gaps
+C047,J010,no_fit,Different professional domain from Backend Engineer requirements
+C047,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C047,J012,no_fit,Different professional domain from People Ops Manager requirements
+C047,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C047,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C047,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C047,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C047,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C047,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C047,J019,no_fit,Different professional domain from Recruiter requirements
+C047,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C047,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C048,J001,no_fit,Different professional domain from ML Engineer requirements
+C048,J002,strong,Strong match with 4 core skills directly relevant to Data Analyst
+C048,J003,no_fit,Different professional domain from HR Recruiter requirements
+C048,J004,weak,Some People Analytics Analyst skills present but significant gaps in domain/tools
+C048,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C048,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C048,J007,medium,Has core Senior Data Engineer skills but may lack seniority/leadership experience
+C048,J008,strong,Strong match with 4 core skills directly relevant to BI Developer
+C048,J009,no_fit,Different professional domain from ML Researcher requirements
+C048,J010,no_fit,Different professional domain from Backend Engineer requirements
+C048,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C048,J012,no_fit,Different professional domain from People Ops Manager requirements
+C048,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C048,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C048,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C048,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C048,J017,medium,Meets most Junior Data Engineer requirements with some domain/skill gaps
+C048,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C048,J019,no_fit,Different professional domain from Recruiter requirements
+C048,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C048,J021,weak,Some People Analytics Lead skills present but significant gaps in domain/tools
+C049,J001,no_fit,Different professional domain from ML Engineer requirements
+C049,J002,no_fit,Different professional domain from Data Analyst requirements
+C049,J003,no_fit,Different professional domain from HR Recruiter requirements
+C049,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C049,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C049,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C049,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C049,J008,no_fit,Different professional domain from BI Developer requirements
+C049,J009,no_fit,Different professional domain from ML Researcher requirements
+C049,J010,no_fit,Different professional domain from Backend Engineer requirements
+C049,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C049,J012,no_fit,Different professional domain from People Ops Manager requirements
+C049,J013,no_fit,Different professional domain from Data Scientist requirements
+C049,J014,strong,Strong match with 4 core skills directly relevant to DevOps Engineer
+C049,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C049,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C049,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C049,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C049,J019,no_fit,Different professional domain from Recruiter requirements
+C049,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C049,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C050,J001,no_fit,Different professional domain from ML Engineer requirements
+C050,J002,no_fit,Different professional domain from Data Analyst requirements
+C050,J003,strong,Strong match with 3 core skills directly relevant to HR Recruiter
+C050,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C050,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C050,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C050,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C050,J008,no_fit,Different professional domain from BI Developer requirements
+C050,J009,no_fit,Different professional domain from ML Researcher requirements
+C050,J010,no_fit,Different professional domain from Backend Engineer requirements
+C050,J011,weak,Analytics experience could support HRIS Analyst but lacks HR domain knowledge
+C050,J012,no_fit,Different professional domain from People Ops Manager requirements
+C050,J013,no_fit,Different professional domain from Data Scientist requirements
+C050,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C050,J015,weak,Analytics experience could support Talent Acquisition Lead but lacks HR domain knowledge
+C050,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C050,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C050,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C050,J019,strong,Strong match with 3 core skills directly relevant to Recruiter
+C050,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C050,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C051,J001,no_fit,Different professional domain from ML Engineer requirements
+C051,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C051,J003,no_fit,Different professional domain from HR Recruiter requirements
+C051,J004,weak,Some People Analytics Analyst skills present but significant gaps in domain/tools
+C051,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C051,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C051,J007,medium,Has core Senior Data Engineer skills but may lack seniority/leadership experience
+C051,J008,strong,Strong match with 3 core skills directly relevant to BI Developer
+C051,J009,no_fit,Different professional domain from ML Researcher requirements
+C051,J010,no_fit,Different professional domain from Backend Engineer requirements
+C051,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C051,J012,no_fit,Different professional domain from People Ops Manager requirements
+C051,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C051,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C051,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C051,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C051,J017,medium,Meets most Junior Data Engineer requirements with some domain/skill gaps
+C051,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C051,J019,no_fit,Different professional domain from Recruiter requirements
+C051,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C051,J021,weak,Some People Analytics Lead skills present but significant gaps in domain/tools
+C052,J001,weak,Some ML Engineer skills present but significant gaps in domain/tools
+C052,J002,no_fit,Different professional domain from Data Analyst requirements
+C052,J003,no_fit,Different professional domain from HR Recruiter requirements
+C052,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C052,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C052,J006,weak,Some Senior ML Engineer skills present but significant gaps in domain/tools
+C052,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C052,J008,no_fit,Different professional domain from BI Developer requirements
+C052,J009,no_fit,Different professional domain from ML Researcher requirements
+C052,J010,no_fit,Different professional domain from Backend Engineer requirements
+C052,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C052,J012,no_fit,Different professional domain from People Ops Manager requirements
+C052,J013,no_fit,Different professional domain from Data Scientist requirements
+C052,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C052,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C052,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C052,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C052,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C052,J019,no_fit,Different professional domain from Recruiter requirements
+C052,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C052,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C053,J001,weak,Python skills relevant to ML Engineer but lacks ML production experience
+C053,J002,no_fit,Different professional domain from Data Analyst requirements
+C053,J003,no_fit,Different professional domain from HR Recruiter requirements
+C053,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C053,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C053,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C053,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C053,J008,no_fit,Different professional domain from BI Developer requirements
+C053,J009,no_fit,Different professional domain from ML Researcher requirements
+C053,J010,no_fit,Different professional domain from Backend Engineer requirements
+C053,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C053,J012,no_fit,Different professional domain from People Ops Manager requirements
+C053,J013,no_fit,Different professional domain from Data Scientist requirements
+C053,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C053,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C053,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C053,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C053,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C053,J019,no_fit,Different professional domain from Recruiter requirements
+C053,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C053,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C054,J001,no_fit,Different professional domain from ML Engineer requirements
+C054,J002,no_fit,Different professional domain from Data Analyst requirements
+C054,J003,weak,Some HR Recruiter skills present but significant gaps in domain/tools
+C054,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C054,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C054,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C054,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C054,J008,no_fit,Different professional domain from BI Developer requirements
+C054,J009,no_fit,Different professional domain from ML Researcher requirements
+C054,J010,no_fit,Different professional domain from Backend Engineer requirements
+C054,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C054,J012,no_fit,Different professional domain from People Ops Manager requirements
+C054,J013,no_fit,Different professional domain from Data Scientist requirements
+C054,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C054,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C054,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C054,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C054,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C054,J019,weak,Some Recruiter skills present but significant gaps in domain/tools
+C054,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C054,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C055,J001,no_fit,Different professional domain from ML Engineer requirements
+C055,J002,no_fit,Different professional domain from Data Analyst requirements
+C055,J003,no_fit,Different professional domain from HR Recruiter requirements
+C055,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C055,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C055,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C055,J007,medium,Meets most Senior Data Engineer requirements with some domain/skill gaps
+C055,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C055,J009,no_fit,Different professional domain from ML Researcher requirements
+C055,J010,no_fit,Different professional domain from Backend Engineer requirements
+C055,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C055,J012,no_fit,Different professional domain from People Ops Manager requirements
+C055,J013,no_fit,Different professional domain from Data Scientist requirements
+C055,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C055,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C055,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C055,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C055,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C055,J019,no_fit,Different professional domain from Recruiter requirements
+C055,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C055,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C056,J001,no_fit,Different professional domain from ML Engineer requirements
+C056,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C056,J003,no_fit,Different professional domain from HR Recruiter requirements
+C056,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C056,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C056,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C056,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C056,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C056,J009,no_fit,Different professional domain from ML Researcher requirements
+C056,J010,no_fit,Different professional domain from Backend Engineer requirements
+C056,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C056,J012,no_fit,Different professional domain from People Ops Manager requirements
+C056,J013,no_fit,Different professional domain from Data Scientist requirements
+C056,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C056,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C056,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C056,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C056,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C056,J019,no_fit,Different professional domain from Recruiter requirements
+C056,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C056,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C057,J001,no_fit,Different professional domain from ML Engineer requirements
+C057,J002,no_fit,Different professional domain from Data Analyst requirements
+C057,J003,no_fit,Different professional domain from HR Recruiter requirements
+C057,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C057,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C057,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C057,J007,weak,Some Senior Data Engineer skills present but significant gaps in domain/tools
+C057,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C057,J009,no_fit,Different professional domain from ML Researcher requirements
+C057,J010,no_fit,Different professional domain from Backend Engineer requirements
+C057,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C057,J012,no_fit,Different professional domain from People Ops Manager requirements
+C057,J013,no_fit,Different professional domain from Data Scientist requirements
+C057,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C057,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C057,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C057,J017,weak,Some Junior Data Engineer skills present but significant gaps in domain/tools
+C057,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C057,J019,no_fit,Different professional domain from Recruiter requirements
+C057,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C057,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C058,J001,no_fit,Different professional domain from ML Engineer requirements
+C058,J002,no_fit,Different professional domain from Data Analyst requirements
+C058,J003,strong,Strong match with 3 core skills directly relevant to HR Recruiter
+C058,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C058,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C058,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C058,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C058,J008,no_fit,Different professional domain from BI Developer requirements
+C058,J009,no_fit,Different professional domain from ML Researcher requirements
+C058,J010,no_fit,Different professional domain from Backend Engineer requirements
+C058,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C058,J012,no_fit,Different professional domain from People Ops Manager requirements
+C058,J013,no_fit,Different professional domain from Data Scientist requirements
+C058,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C058,J015,medium,Meets most Talent Acquisition Lead requirements with some domain/skill gaps
+C058,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C058,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C058,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C058,J019,strong,Strong match with 3 core skills directly relevant to Recruiter
+C058,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C058,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C059,J001,medium,Meets most ML Engineer requirements with some domain/skill gaps
+C059,J002,no_fit,Different professional domain from Data Analyst requirements
+C059,J003,no_fit,Different professional domain from HR Recruiter requirements
+C059,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C059,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C059,J006,weak,Python skills relevant to Senior ML Engineer but lacks ML production experience
+C059,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C059,J008,no_fit,Different professional domain from BI Developer requirements
+C059,J009,weak,Python skills relevant to ML Researcher but lacks ML production experience
+C059,J010,no_fit,Different professional domain from Backend Engineer requirements
+C059,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C059,J012,no_fit,Different professional domain from People Ops Manager requirements
+C059,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C059,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C059,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C059,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C059,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C059,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C059,J019,no_fit,Different professional domain from Recruiter requirements
+C059,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C059,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C060,J001,no_fit,Different professional domain from ML Engineer requirements
+C060,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C060,J003,weak,Analytics experience could support HR Recruiter but lacks HR domain knowledge
+C060,J004,strong,Strong match with 4 core skills directly relevant to People Analytics Analyst
+C060,J005,medium,Meets most Data Analyst – Growth/Ops requirements with some domain/skill gaps
+C060,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C060,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C060,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C060,J009,no_fit,Different professional domain from ML Researcher requirements
+C060,J010,no_fit,Different professional domain from Backend Engineer requirements
+C060,J011,weak,Analytics experience could support HRIS Analyst but lacks HR domain knowledge
+C060,J012,no_fit,Different professional domain from People Ops Manager requirements
+C060,J013,no_fit,Different professional domain from Data Scientist requirements
+C060,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C060,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C060,J016,medium,Meets most Product Analytics Manager requirements with some domain/skill gaps
+C060,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C060,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C060,J019,weak,Analytics experience could support Recruiter but lacks HR domain knowledge
+C060,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C060,J021,strong,Strong match with 4 core skills directly relevant to People Analytics Lead
+C061,J001,no_fit,Different professional domain from ML Engineer requirements
+C061,J002,no_fit,Different professional domain from Data Analyst requirements
+C061,J003,no_fit,Different professional domain from HR Recruiter requirements
+C061,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C061,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C061,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C061,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C061,J008,no_fit,Different professional domain from BI Developer requirements
+C061,J009,no_fit,Different professional domain from ML Researcher requirements
+C061,J010,medium,Meets most Backend Engineer requirements with some domain/skill gaps
+C061,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C061,J012,no_fit,Different professional domain from People Ops Manager requirements
+C061,J013,no_fit,Different professional domain from Data Scientist requirements
+C061,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C061,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C061,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C061,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C061,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C061,J019,no_fit,Different professional domain from Recruiter requirements
+C061,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C061,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C062,J001,no_fit,Different professional domain from ML Engineer requirements
+C062,J002,medium,Meets most Data Analyst requirements with some domain/skill gaps
+C062,J003,no_fit,Different professional domain from HR Recruiter requirements
+C062,J004,medium,Meets most People Analytics Analyst requirements with some domain/skill gaps
+C062,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C062,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C062,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C062,J008,medium,Meets most BI Developer requirements with some domain/skill gaps
+C062,J009,no_fit,Different professional domain from ML Researcher requirements
+C062,J010,no_fit,Different professional domain from Backend Engineer requirements
+C062,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C062,J012,no_fit,Different professional domain from People Ops Manager requirements
+C062,J013,no_fit,Different professional domain from Data Scientist requirements
+C062,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C062,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C062,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C062,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C062,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C062,J019,no_fit,Different professional domain from Recruiter requirements
+C062,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C062,J021,weak,Some People Analytics Lead skills present but significant gaps in domain/tools
+C063,J001,medium,Meets most ML Engineer requirements with some domain/skill gaps
+C063,J002,no_fit,Different professional domain from Data Analyst requirements
+C063,J003,no_fit,Different professional domain from HR Recruiter requirements
+C063,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C063,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C063,J006,weak,Python skills relevant to Senior ML Engineer but lacks ML production experience
+C063,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C063,J008,no_fit,Different professional domain from BI Developer requirements
+C063,J009,weak,Python skills relevant to ML Researcher but lacks ML production experience
+C063,J010,no_fit,Different professional domain from Backend Engineer requirements
+C063,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C063,J012,no_fit,Different professional domain from People Ops Manager requirements
+C063,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C063,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C063,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C063,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C063,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C063,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C063,J019,no_fit,Different professional domain from Recruiter requirements
+C063,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C063,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C064,J001,no_fit,Different professional domain from ML Engineer requirements
+C064,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C064,J003,weak,Analytics experience could support HR Recruiter but lacks HR domain knowledge
+C064,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C064,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C064,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C064,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C064,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C064,J009,no_fit,Different professional domain from ML Researcher requirements
+C064,J010,no_fit,Different professional domain from Backend Engineer requirements
+C064,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C064,J012,no_fit,Different professional domain from People Ops Manager requirements
+C064,J013,no_fit,Different professional domain from Data Scientist requirements
+C064,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C064,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C064,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C064,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C064,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C064,J019,weak,Analytics experience could support Recruiter but lacks HR domain knowledge
+C064,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C064,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C065,J001,no_fit,Different professional domain from ML Engineer requirements
+C065,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C065,J003,no_fit,Different professional domain from HR Recruiter requirements
+C065,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C065,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C065,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C065,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C065,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C065,J009,no_fit,Different professional domain from ML Researcher requirements
+C065,J010,no_fit,Different professional domain from Backend Engineer requirements
+C065,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C065,J012,no_fit,Different professional domain from People Ops Manager requirements
+C065,J013,no_fit,Different professional domain from Data Scientist requirements
+C065,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C065,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C065,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C065,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C065,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C065,J019,no_fit,Different professional domain from Recruiter requirements
+C065,J020,weak,Some Senior Analytics Engineer skills present but significant gaps in domain/tools
+C065,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C066,J001,no_fit,Different professional domain from ML Engineer requirements
+C066,J002,no_fit,Different professional domain from Data Analyst requirements
+C066,J003,no_fit,Different professional domain from HR Recruiter requirements
+C066,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C066,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C066,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C066,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C066,J008,no_fit,Different professional domain from BI Developer requirements
+C066,J009,no_fit,Different professional domain from ML Researcher requirements
+C066,J010,no_fit,Different professional domain from Backend Engineer requirements
+C066,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C066,J012,no_fit,Different professional domain from People Ops Manager requirements
+C066,J013,no_fit,Different professional domain from Data Scientist requirements
+C066,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C066,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C066,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C066,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C066,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C066,J019,no_fit,Different professional domain from Recruiter requirements
+C066,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C066,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C067,J001,no_fit,Different professional domain from ML Engineer requirements
+C067,J002,no_fit,Different professional domain from Data Analyst requirements
+C067,J003,no_fit,Different professional domain from HR Recruiter requirements
+C067,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C067,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C067,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C067,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C067,J008,no_fit,Different professional domain from BI Developer requirements
+C067,J009,no_fit,Different professional domain from ML Researcher requirements
+C067,J010,no_fit,Different professional domain from Backend Engineer requirements
+C067,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C067,J012,no_fit,Different professional domain from People Ops Manager requirements
+C067,J013,no_fit,Different professional domain from Data Scientist requirements
+C067,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C067,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C067,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C067,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C067,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C067,J019,no_fit,Different professional domain from Recruiter requirements
+C067,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C067,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C068,J001,no_fit,Different professional domain from ML Engineer requirements
+C068,J002,weak,Some Data Analyst skills present but significant gaps in domain/tools
+C068,J003,no_fit,Different professional domain from HR Recruiter requirements
+C068,J004,weak,Analytics experience could support People Analytics Analyst but lacks HR domain knowledge
+C068,J005,weak,Some Data Analyst – Growth/Ops skills present but significant gaps in domain/tools
+C068,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C068,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C068,J008,weak,Some BI Developer skills present but significant gaps in domain/tools
+C068,J009,no_fit,Different professional domain from ML Researcher requirements
+C068,J010,no_fit,Different professional domain from Backend Engineer requirements
+C068,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C068,J012,no_fit,Different professional domain from People Ops Manager requirements
+C068,J013,no_fit,Different professional domain from Data Scientist requirements
+C068,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C068,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C068,J016,weak,Some Product Analytics Manager skills present but significant gaps in domain/tools
+C068,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C068,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C068,J019,no_fit,Different professional domain from Recruiter requirements
+C068,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C068,J021,weak,Analytics experience could support People Analytics Lead but lacks HR domain knowledge
+C069,J001,no_fit,Different professional domain from ML Engineer requirements
+C069,J002,no_fit,Different professional domain from Data Analyst requirements
+C069,J003,weak,Some HR Recruiter skills present but significant gaps in domain/tools
+C069,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C069,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C069,J006,no_fit,Different professional domain from Senior ML Engineer requirements
+C069,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C069,J008,no_fit,Different professional domain from BI Developer requirements
+C069,J009,no_fit,Different professional domain from ML Researcher requirements
+C069,J010,no_fit,Different professional domain from Backend Engineer requirements
+C069,J011,weak,Some HRIS Analyst skills present but significant gaps in domain/tools
+C069,J012,no_fit,Different professional domain from People Ops Manager requirements
+C069,J013,no_fit,Different professional domain from Data Scientist requirements
+C069,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C069,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C069,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C069,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C069,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C069,J019,weak,Some Recruiter skills present but significant gaps in domain/tools
+C069,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C069,J021,no_fit,Different professional domain from People Analytics Lead requirements
+C070,J001,strong,Strong match with 4 core skills directly relevant to ML Engineer
+C070,J002,no_fit,Different professional domain from Data Analyst requirements
+C070,J003,no_fit,Different professional domain from HR Recruiter requirements
+C070,J004,no_fit,Different professional domain from People Analytics Analyst requirements
+C070,J005,no_fit,Different professional domain from Data Analyst – Growth/Ops requirements
+C070,J006,medium,Meets most Senior ML Engineer requirements with some domain/skill gaps
+C070,J007,no_fit,Different professional domain from Senior Data Engineer requirements
+C070,J008,no_fit,Different professional domain from BI Developer requirements
+C070,J009,medium,Meets most ML Researcher requirements with some domain/skill gaps
+C070,J010,no_fit,Different professional domain from Backend Engineer requirements
+C070,J011,no_fit,Different professional domain from HRIS Analyst requirements
+C070,J012,no_fit,Different professional domain from People Ops Manager requirements
+C070,J013,weak,Some Data Scientist skills present but significant gaps in domain/tools
+C070,J014,no_fit,Different professional domain from DevOps Engineer requirements
+C070,J015,no_fit,Different professional domain from Talent Acquisition Lead requirements
+C070,J016,no_fit,Different professional domain from Product Analytics Manager requirements
+C070,J017,no_fit,Different professional domain from Junior Data Engineer requirements
+C070,J018,no_fit,Different professional domain from Embedding Engineer requirements
+C070,J019,no_fit,Different professional domain from Recruiter requirements
+C070,J020,no_fit,Different professional domain from Senior Analytics Engineer requirements
+C070,J021,no_fit,Different professional domain from People Analytics Lead requirements

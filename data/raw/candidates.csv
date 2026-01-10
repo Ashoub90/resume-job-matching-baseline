@@ -1,0 +1,410 @@
+candidate_id,cv_text
+C001,"Alex M.
+- yrs exp: 3y in data / analytics
+Skills: python, SQL, tableau (basic). did some ML stuff (trained small models). Worked on ETL pipelines at startup.
+Notes: wrote scripts in pyhton and R sometimes. Interested in ML eng roles."
+C002,"Samira K
+Experienced HR pro — recruiting / onboarding / TA
+- 5+ years recruiting, ATS (Greenhouse), sourcing, comms
+- casual: love building teams
+Misc: some analytics w/ excel & tableau, ran campus hires
+" 
+C003,"J. Lee
+Profile: data analyst / BI
+• SQL heavy (mysql / redshift), some python (pandas)
+• Created dashboards, ad-hoc analysis
+• ""I like cleaning messy data and telling stories""
+Side gigs: taught excel workshops
+" 
+C004,"Priyank P
+Senior ML engineer-ish? worked on CV parsing project. 7 yrs exp.
+Responsibilities: model training, pytorch, tensorflow, dockerized apps, k8s exposure
+Likes: experiments + AB testing. wrote infra scripts in bash and nodejs
+Note: sometimes writes 'ml ops' as one word
+" 
+C005,"Taylor R
+recent grad — data science bootcamp
+- projects: sentiment analysis (NLP), classification
+- used pytorch, sklearn, jupyter notebooks
+- messy resume: lots of abbreviations. looking for junior ML/data role
+" 
+C006,"Morgan H
+HR generalist
+- payroll + benefits + onboarding
+- used hris, bamboohr, some payroll tools
+- does recruiting on the side, scheduling heavy
+" 
+C007,"Lee W
+Machine Learning Researcher
+- focused on CV and NLP (ner, tokenization)
+- tools: pytorch, spacy, huggingface models, tf occasionally
+- publications: internal whitepapers, prototypes
+- likes: model interpretability, explainability
+" 
+C008,"Dana S
+Analytics / BI
+Experience: 4 years
+Worked with PowerBI, Excel, SQL. ad-hoc ops analytics. Handles dashboards, KPI tracking
+Casual notes: comfortable with stakeholders, run weekly reports
+" 
+C009,"O. Park
+Fullstack + data
+- node, js, typescript, python
+- small ML exposure: used sklearn & tf for PoCs
+- enjoys deploying models and building dashboards
+" 
+C010,"Rita Z
+People analytics aspirant
+- background: HR + statistics
+- created people metrics, attrition models (basic), used R and python
+- skills messy: wrote attrition, engagement, surveys, SQL
+" 
+C011,"Ben S
+Data engineer-ish
+- etl, airflow, spark, bigquery
+- languages: python, java
+- messy bullets and inline notes: worked long hours, production pipelines. sometimes lists jdbc and jdbc connectors
+" 
+C012,"K. N.
+Recruiter / sourcer
+- using linkedin, boolean search, ATS
+- worked with hiring managers, screening
+- tools: jira, slack, google sheets mostly
+" 
+C013,"Ivy L
+NLP Engineer
+- experience w/ transformers, huggingface, spacy, bert
+- ad-hoc scripting in python, dockerized experiments
+- some data viz with matplotlib
+" 
+C014,"Tom B
+Quant / analytics
+- strong stats, r, python, modeling
+- tools: tableau & powerbi for viz, sql for data wrangling
+- messy formatting: lists and inline notes throughout
+" 
+C015,"Nadia Q
+Junior HR analyst
+- supports TA and HR ops
+- builds reports in excel, some SQL, dashboard exposure
+- soft skills: communication, stakeholder mgmt
+" 
+C016,"Carlos M
+ML + infra
+- experience: model deployment, docker, aws, lambda
+- uses pytorch, sklearn, sometimes tf
+- loves automation and infra-as-code
+" 
+C017,"E. Wright
+Data analyst / freelance
+- project list: churn analysis, A/B, cohort analysis, ad-hoc reporting
+- languages: sql, r, python (some), excel
+- sometimes writes abbreviations like A B testing or a/b Testing
+"
+C018,"Yara F
+People Ops
+- onboarding, benefits, culture programs
+- some reporting in excel, google sheets
+- casual writing, informal tone
+" 
+C019,"Vikram S
+Senior Data Scientist
+- experience w/ deep learning, computer vision, pytorch, tensorflow
+- also did data engineering tasks, sql, bigquery
+- notes: lead small team, mentoring
+" 
+C020,"Lina G
+Hybrid analytics / HR
+- mixed role: built dashboards for HR, did initial ML experiments for churn
+- tools: tableau, sql, python, basic github
+- messy: lots of short phrases, hyphenated lists
+"
+C021,"Aisha T
+Data ops / analytics
+- 2 yrs building ETL and dashboards, sql + bigquery, some python
+- worked with airbyte & airflow in dev environment
+- casual notes: likes automation, hates manual csvs
+"
+C022,"Mark D
+Backend engineer
+- 5 yrs server-side dev, java, spring, aws ecs
+- worked on internal APIs, some data pipelines, basic sql
+- deployments and scaling noted a lot
+"
+C023,"Hannah P
+Junior ML engineer
+- recent contractor role training models, used tensorflow and sklearn
+- some docker experience, experiments in notebooks
+- looking for mid/junior position
+"
+C024,"Oliver Q
+Senior backend dev
+- nodejs, typescript, kubernetes, docker, aws
+- built microservices and APIs, experience with monitoring
+- occasional mentions of sql and event schemas
+"
+C025,"Sofia R
+People analytics intern
+- worked on surveys and engagement metrics, excel heavy
+- some SQL queries, powerpoint reporting
+- interested in HR + analytics roles
+"
+C026,"Daniel V
+Fullstack dev
+- react, node, python, typescript
+- small data tasks, built dashboards for product team
+- mentions collaborating with data folks
+"
+C027,"Priya S
+Senior Data Analyst
+- 6 yrs experience, sql, tableau, powerbi, python (pandas)
+- strong with KPI definitions and dashboards
+- led analytics for product growth
+"
+C028,"Ethan L
+Machine learning enthusiast
+- worked on personal projects: transformers, bert, huggingface
+- some docker and basic aws knowledge
+- open to research/engineer hybrid roles
+"
+C029,"Maya N
+HR coordinator
+- scheduling, onboarding, benefits admin
+- worked with bamboohr and greenhouse, basic excel reports
+- friendly tone, people-oriented
+"
+C030,"Ibrahim H
+Data engineer
+- spark, airflow, bigquery, etl pipelines
+- python + sql, production data flows, kafka exposure
+- prefers backend/data infra work
+"
+C031,"Olga K
+NLP researcher
+- experience with spacy, nltk, transformers
+- prototyped NER and text classification systems
+- wrote a few internal blog posts
+"
+C032,"Noah F
+Product analyst
+- mix of SQL, python, tableau, user-research summaries
+- A/B testing exposure, growth metrics
+- comfortable writing docs and presenting to PMs
+"
+C033,"Zoe M
+HR Generalist
+- 4 yrs HR ops, payroll, benefits, policy docs
+- occasional reporting in excel and google sheets
+- comfortable with employee communications
+"
+C034,"Rafael G
+ML Platform Eng
+- built infra for model training, kubernetes, terraform
+- hands-on with docker, s3, model monitoring
+- enjoys automation and reproducible experiments
+"
+C035,"Liam O
+Junior Data Scientist
+- thesis work on time series, python, statsmodels
+- some ML using sklearn, basic deep learning experiments
+- eager to join applied data team
+"
+C036,"Chloe B
+Analytics manager
+- led small analytics team, tableau, sql, stakeholder mgmt
+- prioritized dashboards and OKRs
+- written notes about mentoring juniors
+"
+C037,"Gaurav P
+SRE / backend
+- linux, docker, monitoring, aws, terraform
+- builds reliable backend services and deploy pipelines
+- occasional sql for ops metrics
+"
+C038,"Nina V
+Data viz specialist
+- d3, tableau, powerbi, storytelling with data
+- works closely with product and design teams
+- portfolio links (not real) and short project notes
+"
+C039,"Omar L
+ML researcher
+- focus on computer vision and object detection
+- pytorch, tensorflow, model pruning
+- academic-style notes and prototypes
+"
+C040,"Penny C
+Talent sourcer
+- 3 yrs sourcing, boolean searches, outreach
+- familiar with ATS and candidate pipelines, phone screens
+- casual: loves candidate engagement
+"
+C041,"Victor H
+Senior Software Engineer
+- c++, golang, high perf systems, api design
+- worked on backend services and performance optimization
+- mentions mentoring and code reviews
+"
+C042,"Ava J
+Data Science intern
+- coursework in ML, python, pandas, small projects
+- built classification proof-of-concept in team
+- looking for junior role post-internship
+"
+C043,"Diego S
+HR analytics consultant
+- project-based work on attrition and engagement
+- used r and python for basic modeling and dashboards
+- client-facing, delivered slide decks and recommendations
+"
+C044,"Fiona Y
+ML engineer (mid)
+- pytorch, model serving in docker, api endpoints
+- experimented with embeddings and retrieval
+- likes concise docs and reproducible runs
+"
+C045,"Hector Z
+Data engineer (mid)
+- etl, airflow, redshift, python, sql
+- built data pipelines for analytics teams
+- cares about data quality
+"
+C046,"Lola W
+People ops specialist
+- benefits admin, onboarding coordination, employee surveys
+- runs weekly reports in google sheets
+- people-first communicator
+"
+C047,"Marcus K
+Senior Data Scientist
+- deep learning, time series, pytorch, tensorflow
+- productionized models and led experiments
+- experience mentoring and stakeholder mgmt
+"
+C048,"Nora T
+BI Developer
+- powerbi, tableau, sql, db modeling
+- builds dashboards and data models for insights
+- sometimes writes ETL in python
+"
+C049,"Quinn R
+DevOps engineer
+- kubernetes, terraform, ci/cd, monitoring
+- supports platform for product engineering and data teams
+- config-as-code fan
+"
+C050,"Ruby S
+HR recruiter (senior)
+- 7 yrs recruiting, employer branding, interview design
+- familiar with HRIS, ATS, and campus programs
+- also dabbles in people analytics reporting
+"
+C051,"Sam T
+Data analyst (contract)
+- sql heavy, tableau dashboards, quick ad-hoc analysis
+- some python scripting for ETL
+- concise bullet-style resume
+"
+C052,"Tina L
+ML ops engineer
+- model deployment, monitoring, mlflow, docker
+- works across infra and data science teams
+- likes reproducibility
+"
+C053,"Uma R
+Research scientist
+- nl research, transformers, paper reading, prototyping
+- python, pytorch, fastai experiments
+- notes about reproducibility
+"
+C054,"Vera N
+HR partner
+- site-level HR partner, performance cycles, coaching
+- supports HRIS reporting occasionally
+- strong stakeholder influence
+"
+C055,"Wyatt B
+Data engineer (senior)
+- spark, scala, airflow, kafka, bigquery
+- designed data platforms and ingestion systems
+- pragmatic, production-focus
+"
+C056,"Ximena H
+Analytics consultant
+- tableau, sql, stakeholder workshops, insights
+- short project descriptions and client names (redacted)
+"
+C057,"Yusuf A
+Software developer
+- java, springboot, microservices, sql
+- integrates services with data pipelines
+- mentions unit tests and code style
+"
+C058,"Zara P
+Junior recruiter
+- sourcing, screening, interview scheduling
+- learning ATS and recruiting metrics
+- friendly, candidate-focused prose
+"
+C059,"Aaron M
+Applied ML engineer
+- embedding models, retrieval, pytorch, faiss
+- deployed small recommendation systems
+- production-minded and practical
+"
+C060,"Bella K
+People analytics manager
+- leads people analytics, dashboards, SQL, R
+- influences HR strategy with metrics
+- cross-functional communicator
+"
+C061,"Caleb D
+Software engineer
+- backend services, nodejs, java, api design
+- owns service reliability initiatives
+"
+C062,"Dina O
+Data intern
+- basic sql, excel, dashboards, eager learner
+- coursework projects and short internships
+"
+C063,"Elias Q
+ML intern
+- small internship building models with sklearn and pytorch
+- experimental notes and training curves
+"
+C064,"Freya S
+HR analytics specialist
+- surveys, engagement metrics, tableau
+- combines HR domain knowledge with analytics
+"
+C065,"Gina L
+Product manager (data)
+- product analytics, sql, roadmap for data products
+- works with analytics and eng teams
+"
+C066,"Hank Y
+Security engineer
+- secops, compliance, data privacy work
+- experience with audits and controls
+"
+C067,"Ira M
+Data scientist (NLP)
+- topic models, bert fine-tuning (research projects), python
+- good documentation and reproducible notebooks
+"
+C068,"Jared P
+Front-end dev
+- react, typescript, ux-focused dashboards
+- collaborates with analytics teams for visualizations
+"
+C069,"Keiko S
+HR systems analyst
+- hrIS integrations, payroll reconciliations, data exports
+- works closely with IT and HR teams
+"
+C070,"Leo Z
+Machine learning engineer
+- 4 yrs experience, pytorch, tensorflow, model serving
+- worked on image models and ml infra
+"

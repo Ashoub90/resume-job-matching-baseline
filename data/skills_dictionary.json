@@ -1,0 +1,69 @@
+{
+	"Programming": {
+		"Python": ["python", "python3", "py", "pyhton"],
+		"Java": ["java", "jdk", "java8", "java11", "jvm"],
+		"C#": ["c#", "csharp", "cs"],
+		"JavaScript": ["javascript", "js", "nodejs", "node js", "node"],
+		"TypeScript": ["typescript", "ts", "type script"],
+		"Go": ["go", "golang", "go lang"],
+		"C++": ["c++", "cpp", "c plus plus"]
+	},
+	"Data & Databases": {
+		"SQL": ["sql", "structured query language", "select", "query language"],
+		"PostgreSQL": ["postgres", "postgresql", "postgre", "psql"],
+		"MySQL": ["mysql", "my sql"],
+		"MongoDB": ["mongodb", "mongo", "no sql", "nosql"],
+		"BigQuery": ["bigquery", "big query", "gcp bigquery"],
+		"Redshift": ["redshift", "aws redshift"],
+		"ETL": ["etl", "extract transform load", "data pipeline", "data pipelines"]
+	},
+	"Machine Learning & AI": {
+		"Machine Learning": ["machine learning", "ml", "ml models", "machine-learning"],
+		"Deep Learning": ["deep learning", "dl", "neural networks", "deep-learning"],
+		"NLP": ["nlp", "natural language processing", "text processing", "nl proc"],
+		"Computer Vision": ["computer vision", "cv", "image processing", "object detection"],
+		"TensorFlow": ["tensorflow", "tf", "tf2"],
+		"PyTorch": ["pytorch", "torch", "py torch"]
+	},
+	"DevOps & Cloud": {
+		"AWS": ["aws", "amazon web services", "amazon", "ec2", "s3"],
+		"Azure": ["azure", "microsoft azure"],
+		"GCP": ["gcp", "google cloud", "google cloud platform"],
+		"Docker": ["docker", "containers", "containerization"],
+		"Kubernetes": ["kubernetes", "k8s", "kube"]
+	},
+	"Analytics & BI": {
+		"Data Analysis": ["data analysis", "analyst", "data analyst", "analysis"],
+		"Data Visualization": ["data visualization", "viz", "visualization", "plot", "charts"],
+		"Tableau": ["tableau", "tableau desktop"],
+		"Power BI": ["power bi", "powerbi", "ms power bi"],
+		"Excel": ["excel", "ms excel", "spreadsheets", "xls", "xlsx"],
+		"Statistical Analysis": ["statistics", "statistical analysis", "hypothesis testing", "anova"]
+	},
+	"HR & Talent": {
+		"Talent Acquisition": ["talent acquisition", "recruiting", "recruitment", "sourcing"],
+		"Onboarding": ["onboarding", "new hire onboarding", "employee onboarding"],
+		"Performance Management": ["performance management", "performance review", "appraisal"],
+		"HRIS": ["hris", "human resources information system", "hr system", "hr"],
+		"Payroll": ["payroll", "salary processing", "payroll processing"],
+		"ATS": ["ats", "applicant tracking system", "applicant tracking", "greenhouse", "lever"],
+		"Recruiter": ["recruiter", "talent scout", "headhunter", "sourcer"]
+	},
+	"Soft Skills": {
+		"Communication": ["communication", "communicating", "written communication", "verbal communication"],
+		"Leadership": ["leadership", "team lead", "managing", "management"],
+		"Collaboration": ["collaboration", "teamwork", "cross-functional", "cross functional"],
+		"Problem Solving": ["problem solving", "troubleshooting", "debugging", "analytical"],
+		"Time Management": ["time management", "prioritization", "scheduling"],
+		"Adaptability": ["adaptability", "flexible", "resilient"]
+	},
+	"Tools & Platforms": {
+		"Git": ["git", "gitlab", "github", "version control", "vcs"],
+		"Jira": ["jira", "atlassian jira", "issue tracker"],
+		"Slack": ["slack", "slackpm", "messaging"]
+	},
+	"Security & Compliance": {
+		"Data Privacy": ["data privacy", "gdpr", "privacy", "personal data"],
+		"Compliance": ["compliance", "regulatory compliance", "sox", "iso"]
+	}
+}
