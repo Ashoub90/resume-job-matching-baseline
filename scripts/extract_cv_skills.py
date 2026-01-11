@@ -1,10 +1,10 @@
 """extract_cv_skills.py
 
-Simple preview script to inspect rule-based extraction on a few candidate CVs.
+Simple preview script to inspect rule-based extraction on the candidates CVs.
 
 This script is intentionally lightweight and not a CLI framework. It:
 - Loads the skills dictionary via `src.skills.loader.load_skills_dictionary()`
-- Reads a few rows from `data/raw/candidates.csv`
+- Reads `data/raw/candidates.csv`
 - Calls `extract_skills(cv_text, skills_dict)` for each CV
 - Prints candidate_id and sorted extracted skills for manual inspection
 
@@ -24,7 +24,6 @@ from src.skills.rule_based_extraction import extract_skills
 
 
 def _read_candidates(csv_path: Path):
-    """Yield up to `limit` candidate rows as dicts with keys candidate_id, cv_text."""
     with csv_path.open("r", encoding="utf-8", newline='') as fh:
         reader = csv.DictReader(fh)
         for row in reader:
