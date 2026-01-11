@@ -23,18 +23,14 @@ from src.skills.loader import load_skills_dictionary
 from src.skills.rule_based_extraction import extract_skills
 
 
-def _read_candidates(csv_path: Path, limit: int = 70):
+def _read_candidates(csv_path: Path):
     """Yield up to `limit` candidate rows as dicts with keys candidate_id, cv_text."""
     with csv_path.open("r", encoding="utf-8", newline='') as fh:
         reader = csv.DictReader(fh)
-        count = 0
         for row in reader:
-            if count >= limit:
-                break
             # Ensure expected keys exist
             if 'candidate_id' in row and 'cv_text' in row:
                 yield {'candidate_id': row['candidate_id'], 'cv_text': row['cv_text']}
-                count += 1
 
 
 def main():
@@ -47,7 +43,7 @@ def main():
 
     print("Previewing rule-based extraction over a few CVs:\n")
 
-    for cand in _read_candidates(candidates_csv, limit=70):
+    for cand in _read_candidates(candidates_csv):
         cid = cand['candidate_id']
         text = cand['cv_text'] or ""
         extracted = extract_skills(text, skills)
@@ -60,7 +56,6 @@ def main():
         print(f"Candidate: {cid}")
         print(f"Extracted skills: {skills_str}")
         print("-" * 40)
-
 
 if __name__ == '__main__':
     main()
