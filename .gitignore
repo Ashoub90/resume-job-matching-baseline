@@ -8,10 +8,13 @@ __pycache__/
 .env/
 .venv/
 venv/
+venv_test/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+
+.idea/
+.vscode/

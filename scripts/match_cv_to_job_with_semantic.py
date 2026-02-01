@@ -183,13 +183,13 @@ def main():
 
     candidates_csv = repo_root / 'data' / 'raw' / 'candidates.csv'
     jobs_csv = repo_root / 'data' / 'raw' / 'jobs.csv'
-    expected_csv = repo_root / 'data' / 'processed' / 'expected_matches.csv'
+    expected_csv = repo_root / 'data' / 'processed' / 'silver_train_cartesian.csv'
     baseline_predictions = repo_root / 'data' / 'processed' / 'predictions.csv'
     output_csv = repo_root / 'data' / 'processed' / 'predictions_with_semantic.csv'
 
     # Basic checks
     if not candidates_csv.exists() or not jobs_csv.exists() or not expected_csv.exists():
-        print("Ensure candidates, jobs, and expected_matches CSV files exist in data/raw and data/processed respectively.")
+        print("Ensure candidates, jobs, and silver_train_cartesian CSV files exist in data/raw and data/processed respectively.")
         return
 
     # Load texts

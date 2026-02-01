@@ -23,18 +23,13 @@ from src.skills.loader import load_skills_dictionary
 from src.skills.rule_based_extraction import extract_skills
 
 
-def _read_jobs(csv_path: Path, limit: int = 70):
-    """Yield up to `limit` job rows as dicts with keys job_id, job_description."""
+def _read_jobs(csv_path: Path):
     with csv_path.open("r", encoding="utf-8", newline='') as fh:
         reader = csv.DictReader(fh)
-        count = 0
         for row in reader:
-            if count >= limit:
-                break
             # Ensure expected keys exist
             if 'job_id' in row and 'job_description' in row:
                 yield {'job_id': row['job_id'], 'job_description': row['job_description']}
-                count += 1
 
 
 def main():
@@ -47,7 +42,7 @@ def main():
 
     print("Previewing rule-based extraction over a few job descriptions:\n")
 
-    for job in _read_jobs(jobs_csv, limit=70):
+    for job in _read_jobs(jobs_csv):
         jid = job['job_id']
         text = job['job_description'] or ""
         extracted = extract_skills(text, skills)

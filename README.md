@@ -1,277 +1,148 @@
 # HR AI CV–Job Matching & Ranking System
 
-> This repository represents a **foundational baseline project**.  
-> It intentionally focuses on ranking logic and evaluation rigor and serves as the basis for a larger end-to-end CV ingestion and ranking application.
+An AI-powered system that ranks candidates for a given job description using a hybrid scoring approach that combines rule-based skill matching and semantic similarity from text embeddings.
+
+This project focuses on **ranking quality and evaluation rigor** rather than simple binary classification, reflecting real recruiter workflows where candidates are reviewed as a ranked shortlist.
 
 ---
 
 ## Overview
 
-This project builds and evaluates a **job → candidate ranking system** for CV–job matching.  
-Given a job description, the system ranks candidates based on a **hybrid scoring approach** that combines:
-
-1. Rule-based skill matching  
-2. Semantic similarity using text embeddings  
-
-The goal is **not binary classification**, but **ranking quality** — surfacing the best candidates first, which mirrors real recruiter workflows.
-
-This project emphasizes:
-
-- Information Retrieval (IR)–grade evaluation  
-- Robust handling of noisy labels  
-- Clear separation between training (silver) and evaluation (gold) data  
-- Practical, explainable system design  
-
----
-
-## Problem Framing
-
-Traditional ML CV-matching projects often frame the task as:
+Traditional CV matching systems often frame the task as:
 
 > “Does candidate X match job Y? (yes/no)”
 
 This project instead frames the problem as:
 
-> **“For a given job, how well does the system rank candidates by relevance?”**
+> “For a given job, how well does the system rank candidates by relevance?”
 
-This distinction matters because:
+The system combines:
+- Rule-based skill extraction  
+- Semantic similarity using sentence embeddings  
+- Information Retrieval (IR) evaluation metrics  
 
-- Recruiters review ranked shortlists, not isolated predictions  
-- Accuracy and F1 are misleading for ranking tasks  
-- IR metrics (Recall@K, MRR, nDCG) better capture real-world usefulness  
+to produce explainable and measurable candidate rankings.
 
 ---
 
-## Data Sources
+## Key Features
 
-### Candidates
-- Short free-text CV summaries (2–3 sentences each)  
-- No structured sections (e.g., no explicit “Skills” or “Experience” headers)  
+- Hybrid scoring system (rule-based + semantic similarity)  
+- Regex-based skill extraction  
+- Sentence embeddings for semantic matching  
+- Job → candidate ranking (not binary classification)  
+- Gold vs silver label separation for robust evaluation  
+- IR-grade evaluation metrics:
+  - nDCG@10  
+  - Recall@K  
+  - MRR  
+- Designed for explainability and recruiter-oriented use cases  
 
-### Jobs
-- 21 job descriptions across:
-  - ML / Data  
-  - Analytics  
-  - HR / People Ops  
+---
 
-Some roles are intentionally similar to reflect real hiring ambiguity.
+## Tech Stack
+
+- Python  
+- Sentence Embeddings  
+- Regex-based Skill Extraction  
+- Information Retrieval Metrics (nDCG, MRR, Recall@K)  
+
+---
+
+## System Design
+
+Each job–candidate pair is scored using three signals:
+
+### 1. Rule-Based Skill Matching
+- Regex-based skill extraction  
+- Measures overlap between job-required skills and candidate-mentioned skills  
+- Encodes hard constraints (e.g., SQL, ML frameworks, ATS experience)  
+
+### 2. Semantic Similarity
+- Sentence embeddings over full CV text and job description  
+- Captures transferable and paraphrased skills  
+- Handles non-exact keyword matches  
+
+### 3. Hybrid Final Score
+- Weighted combination of rule-based score and semantic similarity  
+- Balances precision (rules) and recall (semantics)  
+
+---
+
+## Evaluation Methodology
+
+This project emphasizes correct evaluation practices used in search and recommender systems.
+
+### Metrics Used
+- **nDCG@10 (primary metric)** – measures ranking quality with graded relevance  
+- **Recall@K** – checks whether good candidates appear early  
+- **MRR** – measures how early the first good match appears  
+
+### Labeling Strategy
+- **Silver labels:** automatically generated for training and debugging (noisy)  
+- **Gold labels:** manually curated for final evaluation  
+
+This separation avoids label leakage and ensures credible performance measurement.
+
+---
+
+## Results (Gold Evaluation Set)
+
+| Scoring Method     | nDCG@10 |
+|-------------------|---------|
+| Rule-based only   | 0.94    |
+| Semantic only     | 0.93    |
+| Hybrid (final)    | 0.96    |
+
+**Interpretation:**
+- Rule-based matching captures hard skill requirements  
+- Semantic similarity improves recall and flexibility  
+- Hybrid approach achieves the best overall ranking quality  
+
+---
+
+## Limitations
+
+- Small gold evaluation set (by design)  
+- CVs are short and unstructured  
+- Rule-based skill extraction is shallow  
+- No user interface or file upload support  
+
+---
+
+## Future Improvements
+
+- Add spaCy-based explainability (missing skills, skill categories)  
+- Support file uploads (PDF, DOCX)  
+- Learn hybrid score weights from gold data  
+- Add recruiter-facing explanations:
+  > “Candidate ranked #2 because of X, Y, and missing Z”  
+
+---
+
+## Documentation
+
+Full project documentation is available:
+
+- [Overview](docs/overview.md)  
+- [User Guide](docs/user-guide.md)  
+- [System Architecture](docs/system-architecture.md)  
+- [Pipeline Reference](docs/api-reference.md)  
+- [Limitations & Risks](docs/limitations-and-risks.md)  
 
 ---
 
 ## Setup
 
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
-Project Structure
-graphql
-Copy code
-data/
-  raw/                 # Original job and candidate descriptions
-  processed/           # Model outputs, evaluation sets, predictions
-  skills_dictionary.json
-
-skills/                # Reusable skill extraction logic
-  loader.py
-  rule_based_extraction.py
-  ml_based_extraction.py
-
-scripts/               # Pipeline and evaluation scripts
-  match_cv_to_job.py
-  match_cv_to_job_with_semantic.py
-  evaluate_job_to_candidate_ranking.py
-  build_gold_eval_pairs.py
-  ...
-Scoring Architecture
-Each job–candidate pair is scored using three signals:
-
-1. Rule-Based Score
-Regex-based skill extraction
-
-Measures overlap between job-required skills and candidate-mentioned skills
-
-Encodes hard constraints (e.g., SQL, ML frameworks, ATS experience)
-
-2. Semantic Similarity
-Sentence embeddings over full CV text and job description
-
-Captures:
-
-Transferable skills
-
-Paraphrased experience
-
-Related roles without exact keyword overlap
-
-3. Hybrid Final Score
-Weighted combination of rule-based score and semantic similarity
-
-Designed to balance:
-
-Precision (rules)
-
-Recall & flexibility (semantics)
-
-Labeling Strategy (Critical Design Choice)
-Why full manual labeling was not feasible
-Cartesian product: 70 candidates × 21 jobs = 1,470 pairs
-
-Manual labeling at this scale is unrealistic
-
-Silver Labels (Bootstrapping)
-Initial labels were generated to:
-
-Train
-
-Debug
-
-Stress-test the system
-
-They are treated as noisy, non-authoritative, and are explicitly not used for final evaluation.
-
-Silver labels exist to help the system learn — not to prove correctness.
-
-Gold Evaluation Set (Human-Labeled)
-To ensure credible evaluation, a gold dataset was created manually.
-
-Selection strategy
-From the full Cartesian predictions:
-
-Top-ranked candidates per job
-
-Bottom-ranked candidates per job
-
-(Optional) mid-range candidates
-
-This resulted in:
-
-~100 manually labeled job–candidate pairs
-
-Balanced across strong / medium / weak / no-fit cases
-
-Why this works
-Focuses labeling effort where ranking quality matters
-
-Avoids label leakage
-
-Mirrors real evaluation practices in search & recommender systems
-
-Evaluation Methodology
-Why classification metrics were rejected ❌
-Accuracy, F1, and confusion matrices assume:
-
-Mutually exclusive classes
-
-No ranking order
-
-They fail to capture how early good matches appear.
-
-Metrics Used ✅ (IR-grade)
-nDCG@10 (Primary Metric)
-Measures ranking quality with graded relevance
-
-Rewards:
-
-Strong matches appearing early
-
-Penalizes good matches ranked too low
-
-Recall@K
-Answers: “Does the system surface at least one good candidate early?”
-
-Used during development for sanity checks
-
-MRR
-Measures how early the first good match appears
-
-Final Evaluation Results (Gold Data)
-Job → Candidate Ranking
-Average nDCG@10 (gold evaluation):
-
-≈ 0.95
-
-Baseline Comparison
-Scoring Method	nDCG@10
-Rule-based only	0.94
-Semantic-only	0.93
-Hybrid (final)	0.96
-
-Interpretation
-Rules alone are strong for hard skill matching
-
-Semantic similarity adds recall and flexibility
-
-Hybrid approach consistently performs best
-
-This confirms that:
-
-The system is not just embeddings
-
-Design choices added measurable value
-
-Key Challenges & How They Were Addressed1. Noisy Labels
-LLM-generated labels sometimes over-penalized missing domain keywords
-
-Solution:
-
-Treat silver labels as approximate
-
-Use human-labeled gold set for evaluation
-
-2. Similar Job Descriptions
-Some roles (e.g., analyst variants) are naturally ambiguous
-
-This reflects real hiring scenarios
-
-Ranking metrics handle ambiguity better than classification.
-
-3. Limited CV Structure
-CVs lacked explicit sections
-
-Regex + embeddings were sufficient
-
-spaCy / NER deferred to future explainability work
-
-
-
-Limitations & Future Work
-Current Limitations
-Small gold evaluation set (by design)
-
-CVs are short and unstructured
-
-Rule-based skill extraction is shallow
-
-Future Improvements
-Add spaCy-based explainability:
-
-Missing skills
-
-Skill categories
-
-Expand to:
-
-File uploads (PDF, DOCX)
-
-Arbitrary new jobs & candidates
-
-Learn score weights from gold data
-
-Add recruiter-facing explanations:
-
-“Candidate ranked #2 because of X, Y, missing Z”
-
-Final Note
-This project prioritizes correct problem framing and evaluation over flashy modeling.
-It demonstrates an understanding of:
-
-Ranking systems
-
-IR metrics
-
-Label noise
-
-Evaluation leakage
-
-Practical ML system design
-
-This is intentionally not a one-click AI-generated app — and it cannot be replaced by one.
+Run evaluation scripts:
+
+python scripts/match_cv_to_job_with_semantic.py
+python scripts/evaluate_job_to_candidate_ranking.py
+```
+## Disclaimer
+This project is for educational and portfolio purposes only.
+It does not replace professional recruitment systems or human hiring decisions.

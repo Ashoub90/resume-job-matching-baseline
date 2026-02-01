@@ -4,7 +4,7 @@ Simple, explainable baseline matching system between CVs and jobs.
 
 This script:
 1. Loads the skills dictionary and extracts skills from all CVs and jobs
-2. Reads expected matches (ground truth labels) from data/processed/expected_matches.csv
+2. Reads expected matches (ground truth labels) from data/processed/silver_train_cartesian.csv
 3. Computes a skill overlap score for each candidate-job pair
 4. Maps the score to a predicted label (strong/medium/weak/no_fit)
 5. Writes a CSV with candidate_id, job_id, score, predicted_label, expected_label
@@ -94,23 +94,7 @@ JOB_FAMILIES = {
     },
 }
 
-'''
 
-def _read_csv_dict(csv_path: Path) -> Dict[str, str]:
-    """Read a CSV and return dict mapping first column to second column."""
-    result = {}
-    with csv_path.open("r", encoding="utf-8", newline='') as fh:
-        reader = csv.DictReader(fh)
-        for row in reader:
-            # Assumes first column is the key, second is the value
-            items = list(row.items())
-            if len(items) >= 2:
-                key = items[0][1]
-                value = items[1][1]
-                result[key] = value
-    return result
-
-'''
 def _extract_all_cv_skills(candidates_csv: Path, skills_dict: Dict) -> Dict[str, Set[str]]:
     """Extract skills for all candidates.
 
