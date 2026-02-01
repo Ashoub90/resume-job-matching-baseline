@@ -127,7 +127,6 @@ Full project documentation is available:
 - [Overview](docs/overview.md)  
 - [User Guide](docs/user-guide.md)  
 - [System Architecture](docs/system-architecture.md)  
-- [Pipeline Reference](docs/api-reference.md)  
 - [Limitations & Risks](docs/limitations-and-risks.md)  
 
 ---
